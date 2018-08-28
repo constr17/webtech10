@@ -7,7 +7,7 @@ var spies = require('chai-spies');
 chai.use(spies);
 var assert = chai.assert;
 var expect = chai.expect;
-const { HelloComponent } = require("../src/app/hello.component.ts")
+const { HelloComponent } = require("../src/app/hello.component.js")
 
 describe('HelloComponent', () => {
   const hello = new HelloComponent();
